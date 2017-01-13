@@ -1,0 +1,60 @@
+
+
+body{
+  font-family:inherit;
+}
+#workwrap {
+
+  background: url("https://static1.squarespace.com/static/5432dfcbe4b08b6ea43c3a3a/t/55080410e4b06b38c8c58716/1426588701684/Stack+of+books+by+blackboard+with+bad+math+education+school.jpg?format=1500w") no-repeat center top;
+  margin-top: -70px;
+  padding-top: 250px;
+
+  /*background-attachment: relative;*/
+  /*background-position: ;*/
+  min-height: 650px;
+  width: 100%;
+
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#workwrap h4 {
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-size: 60px;
+  color: white;
+  padding-top: 60px;
+  font-weight: bold;
+  text-shadow: 0.1em 0.1em #020101;
+  text-align: center;
+}
+.profile{
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+#aboutwrap{
+  padding-bottom: 50px;
+}
+#social {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: #f2f2f2;
+}
+
+#social i {
+  font-size: 40px;
+  color: #4a4a4a
+}
+
+#social i:hover {
+  color: #1abc9c
+}
+

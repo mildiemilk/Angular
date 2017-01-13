@@ -1,0 +1,41 @@
+
+<body>
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" (click)="isCollapsed = !isCollapsed" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+
+      </button>
+      <a class="navbar-brand" routerLink=''
+         routerLinkActive='active'>Portfolio </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="page-scroll">
+          <a routerLink=''
+             routerLinkActive='active'
+             class='menu__link'>Home</a>
+        </li>
+        <li class="page-scroll">
+          <a routerLink='/topic'
+             routerLinkActive='active'
+             class='menu__link'>Topic</a>
+        </li>
+        <li class="page-scroll">
+          <a routerLink='/about'
+             routerLinkActive='active'
+             class='menu__link'>About</a>
+        </li>
+
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+</body>

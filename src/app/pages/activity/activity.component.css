@@ -1,0 +1,68 @@
+
+
+body{
+  font-family:inherit;
+}
+#workwrap {
+
+  background: url("http://www.independent.com.mt/file.aspx?f=115469&width=630&height=340") no-repeat center top;
+  margin-top: -70px;
+  padding-top: 250px;
+
+  /*background-attachment: relative;*/
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
+
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+  -moz-filter: brightness(0.8);
+  -o-filter: brightness(0.8);
+  -ms-filter: brightness(0.8);
+}
+
+
+#workwrap h4 {
+  font-weight: 400;
+  letter-spacing: 6px;
+
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: bold;
+  padding-top: 60px;
+  text-align: center;
+  text-shadow: 0 0 0.5em #020101, 0 0 0.5em #020101,
+  0 0 0.5em #020101;
+}
+.profile{
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+#aboutwrap{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+#social {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: #f2f2f2;
+}
+
+#social i {
+  font-size: 40px;
+  color: #4a4a4a
+}
+
+#social i:hover {
+  color: #1abc9c
+}

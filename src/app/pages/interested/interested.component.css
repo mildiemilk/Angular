@@ -1,0 +1,46 @@
+
+
+body{
+  font-family:inherit;
+}
+#workwrap {
+
+  background: url("https://cdn.mercyhome.org/wp-content/uploads/2015/06/boyreadingbook-1500x630.jpg") no-repeat center top;
+  margin-top: -70px;
+  padding-top: 250px;
+
+  /*background-attachment: relative;*/
+  background-position: bottom;
+  min-height: 650px;
+  width: 100%;
+
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+  -moz-filter: brightness(0.8);
+  -o-filter: brightness(0.8);
+  -ms-filter: brightness(0.8);
+}
+
+
+#workwrap h4 {
+  font-weight: 400;
+  letter-spacing: 4px;
+
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: bold;
+  padding-top: 60px;
+  text-align: center;
+  text-shadow: 0 0 0.5em #020101, 0 0 0.5em #020101,
+  0 0 0.5em #020101;
+}
