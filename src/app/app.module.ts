@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import {Routes,RouterModule} from "@angular/router";
-import { CollapseModule } from 'ng2-bootstrap/collapse';
+// import { CollapseModule } from 'ng2-bootstrap/collapse';
 
 
 import { routing } from './app.routing';
@@ -37,7 +37,7 @@ const appRoutes: Routes =[
 
 @NgModule({
   declarations: [
-    [CollapseDirective],
+    // [CollapseDirective],
     AppComponent,
     HomeComponent,
     HeaderComponent,
